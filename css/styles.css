@@ -1,0 +1,44 @@
+
+.result {
+    font-size: xxx-large;
+    display: flex
+;
+    font-family: cursive;
+    justify-content: center;
+}
+
+header {
+    display: flex
+;
+    justify-content: center;
+}
+main {
+    display: flex
+;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.form-group {
+    display: flex
+;
+    flex-direction: column;
+}
