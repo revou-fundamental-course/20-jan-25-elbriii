@@ -42,3 +42,34 @@ tr:nth-child(even) {
 ;
     flex-direction: column;
 }
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04b138; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+  }
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .red { 
+    background-color: red;
+  }
+  
