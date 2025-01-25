@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="css\styles.css">
+</head>
+<body>
+    <header>
+        <h1>Body Mass Index (BMI)</h1>
+    </header>
+    <main>
+           <!--Left Content -->
+           <section>
+        <!-- Introduction -->
+            <article>
+                <p>
+                BMI adalah perhitungan matematis yang membandingkan berat badan 
+                dalam kilogram dengan kuadrat tinggi badan dalam meter. 
+            <br>
+                Meskipun sederhana, BMI banyak digunakan di seluruh dunia 
+                karena kemudahannya dalam memberikan 
+            <br>
+                gambaran umum tentang status berat badan seseorang.
+                Rumus perhitungan BMI: BMI = Berat Badan (kg) ÷ (Tinggi Badan (m))²
+            <br>
+                BMI adalah salah satu cara termudah untuk mengevaluasi risiko 
+                kesehatan yang berhubungan dengan berat badan. 
+            <br>
+                Beberapa risiko yang mungkin terkait dengan kategori BMI adalah:
+                </p>
+                
+                <h3>sekarang coba Hitung BMI mu menggunakan kalkulator ini :</h3>
+            </article>
+        <!--Form Calculator-->
+        <form>
+            <div class="gender">
+                <label for="male">Laki-Laki</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Perempuan</label>
+                <input type="radio" name="gender" id="female">
+            </div>  
+    <br>
+            <div class="form-group">
+                <label for="Input-berat-badan">Berat badan (kg)</label>
+                <input type="number" id="Input-berat-badan">
+            </div>
+
+            <div class="form-group">
+                <label for="Input-usia">Usia (tahun)</label>
+                <input type="number" id="Input-usia">
+            </div>
+
+            <div class="form-group">
+                <label for="Input-tinggi-badan">Tinggi badan (cm)</label>
+                <input type="number" id="Input-tinggi-badan">
+            </div>
+                <br>
+            <div>
+                <button>Hitung BMI</button>
+                <button>Reset</button>
+            </div>
+        </form>
+<!--Feature information-->
+<article>
+    <h3>Keunggulan Fitur</h3>
+    <Ul>
+        <li>Menghitung BMI dengan lebih cepat dan praktis</li>
+        <li>Mengetahui BMI dengan mudah dan akurat</li>
+        <li>mengetahui kategori kategori BMI</li>
+    </Ul>  
+        </article>
+            </section>
+            <!--Right Content-->
+            <section>
+            <!--Result-->
+                <header>
+                    <h2>Hasil Perhitungan BMI :</h2>
+                </header>
+                    <div class="result">
+                        <span id="result-bmi">0</span>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Kategori</th>
+                            <th>BMI</th>
+                        </tr>
+                        <tr>
+                            <td>Kurus</td>
+                            <td>< 18,5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Normal</td>
+                            <td>18,5 – 24,9</td>
+                        </tr>
+
+                        <tr>
+                            <td>Berat badan berlebih</td>
+                            <td>25 – 29,9</td>
+                        </tr>
+
+                        <tr>
+                            <td>Obesitas Kelas 1</td>
+                            <td>30 – 34,9</td>
+                        </tr>
+
+                        <tr>
+                            <td>Obesitas Kelas 2</td>
+                            <td>35 – 39,9</td>
+                        </tr>
+
+                        <tr>
+                            <td>Obesitas Kelas 3</td>
+                            <td>≥ 40</td>
+                        </tr>
+                    </table>
+
+                        
+            </section>
+
+    </main>
+<footer></footer>
+</body>
+</html>
