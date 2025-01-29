@@ -1,9 +1,10 @@
+// data yang dimasukan 
 function kalkulasi(){
             let weight = document.getElementById("Input-berat-badan").value;
             let height = document.getElementById("Input-tinggi-badan").value;
             let usia = document.getElementById("Input-usia").value;
             let gender = document.querySelector('input[name="gender"]:checked');
-
+// validasi data
             if (weight === "" || height === "" || weight <= 0 || height <= 0) {
                 alert("Masukkan berat dan tinggi badan yang valid!");
                 return;
@@ -19,11 +20,11 @@ function kalkulasi(){
                 alert("Harap masukkan usia yang valid!");
                 return;
             }
-
+//pengubahan cm ke m
             height = height / 100;
-
+//perhitungan bmi
             let bmi = (weight / (height * height)).toFixed(1);
-
+//kategory bmi
             let category = "";
             if (bmi < 18.5) {
                 category = "Kurus";
@@ -38,7 +39,7 @@ function kalkulasi(){
             } else {
                 category = "Obesitas Kelas 3";
             }
-
+//penjelasan singkat category
             let message = "";
             if (bmi < 18.5) {
                 message = "Makan lebih banyak lagi ya!";
@@ -53,13 +54,14 @@ function kalkulasi(){
             } else {
                 message = "hati hati cepet turunkan beratmu!";
             }
-
+//display hasil
             document.getElementById("result-bmi").innerHTML = `<strong>${bmi}</strong>`;
             document.getElementById("category").innerHTML = `<strong>${category}</strong>`;
             document.getElementById("message").innerHTML = `<strong>${message}</strong>`;
+            document.getElementById("gender").innerHTML = `${gender.value}`;
               return false;
         }   
-
+//tombol reset
         function reset() {
             document.getElementById("Input-berat-badan").value = "";
             document.getElementById("Input-tinggi-badan").value = "";

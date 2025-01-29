@@ -1,4 +1,5 @@
 
+/* judul*/
 .judul {
   font-size: xx-large;
   background-color: #edd481;
@@ -8,12 +9,12 @@
   padding-bottom: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+/* warna background dan font keseluruhan */
 body {
   background-color: rgb(227, 248, 174);
   font-family: cursive;
 }
-
+/* hasil*/
 .result {
     font-size: xxx-large;
     display: flex
@@ -21,20 +22,20 @@ body {
     font-family: cursive;
     justify-content: center;
 }
-
+/* segala header*/
 header {
     display: flex
 ;
     justify-content: center;
 }
-
+/* styling awal kata*/
 .Introduction {
   background-color: #cadc88;
   padding: 20px;
   width:35%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+/* menu utama*/
 main {
     display: flex
 ;
@@ -42,12 +43,12 @@ main {
     padding: 10px;
     gap: 70px;
 }
-
+/* gender semua */
 .gender {    
   font-size: larger;
 }
 
-
+/* tabel */
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -65,20 +66,20 @@ td, th {
 tr {
   background-color: #c2f86b;
 }
-
+/* from group*/
 .form-group {
     display: flex
 ;
     flex-direction: column;
 }
-
+/* input */
 input[type=number] {
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
-  
+  /* tombol */
   button {
     background-color: #04b138; /* Green */
     border: none;
@@ -103,7 +104,7 @@ input[type=number] {
   .red { 
     background-color: red;
   }
-  
+  /* penyesuaian gambar dan animasi */
   img {
     width: 180px; 
     height: auto;
@@ -118,6 +119,7 @@ input[type=number] {
     transform: scale(1.1); 
     opacity: 1;
   }
+  /* kotak hasil*/
 .hasil {
   background-color: #dcf77c;
   padding: 30px;
@@ -126,15 +128,15 @@ input[type=number] {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-
+/* copyright */
 footer {
   display: flex
 ;
 
     justify-content: center;
    
-
 }
+
 .maker {
   display: flex
   ;
@@ -146,7 +148,7 @@ footer {
       padding-right: 500px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+/* artikel di kiri */
 .aside {
  background-color: #aad363;
   text-orientation: upright;
@@ -160,7 +162,7 @@ footer {
   margin-top: 100px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+/* dalam box hasil */
 .category {
   display: flex
 ;
@@ -172,4 +174,13 @@ footer {
 ;
     justify-content: center;
     font-size: larger;
+
 }
+.genderhasil {
+  display: flex
+  ;
+      justify-content: start;
+      font-size: large;
+   max-width: 100px;
+   padding-left: 15px;
+   background-color: #dae7a4;
