@@ -60,10 +60,9 @@ function kalkulasi(){
               return false;
         }   
 
-        function resetFields() {
-            document.getElementById("weight").value = "";
-            document.getElementById("height").value = "";
-            document.getElementById("result").innerHTML = "";
-            document.getElementById("category").innerHTML = "";
+        function reset() {
+            document.getElementById("Input-berat-badan").value = "";
+            document.getElementById("Input-tinggi-badan").value = "";
+            document.getElementById("Input-usia").value = "";
         }
 
