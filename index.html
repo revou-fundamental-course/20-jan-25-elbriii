@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="css\styles.css">
+    <script src="js\script.js"></script>
 </head>
 <body>
     <header>
         <h1 class="judul">Body Mass Index (BMI)</h1>
     </header>
+   
     <main>
+        <section class="aside">
+            <h3>Kenapa BMI Penting?</h3>
+            <p>
+                BMI memberikan gambaran <br>
+                kasar tentang status <br>
+                berat badan Anda, <br>
+                yang berkaitan dengan <br>
+                risiko beberapa penyakit <br>
+                seperti:</p>
+                <ul>
+                    <li>Penyakit jantung</li>
+                    <li>Diabetes tipe 2</li>
+                    <li>Hipertensi</li>
+                    <li>Gangguan tulang dan<br>
+                        sendi</li>
+                </ul>
+        </section>
            <!--Left Content -->
            <section class="Introduction">
         <!-- Introduction -->
@@ -37,9 +56,9 @@
         <form>
             <div class="gender">
                 <label for="male">Laki-Laki</label>
-                <input type="radio" name="gender" id="male">
+                <input type="radio" name="gender" id="male" value="Laki-Laki">
                 <label for="female">Perempuan</label>
-                <input type="radio" name="gender" id="female">
+                <input type="radio" name="gender" id="female" value="Perempuan">
             </div>  
     <br>
             <div class="form-group">
@@ -58,7 +77,8 @@
             </div>
                 <br>
             <div>
-                <button>Kalkulasi</button>
+                <button onclick="kalkulasi(); return false;">Kalkulasi</button>
+
                 <button class="red">Reset</button>
             </div>
         </form>
@@ -81,19 +101,24 @@
                     <br>
                 </header>
                     <div class="result">
-                        <span id="result-bmi">0</span>
-                    </div>
+                        <span id="result-bmi"></span>
+                        <br>
 
+                </div>
+                <br>
+                <div class="category"
+                    <span id="category"></span>
+                </div>
                     <br>
-                    <br>
-                    <br>
-                    <br>
+                    <div class="message"
+                    <span id="message"></span>
+                </div>
                     <br>
                     <br>
                 </div>
                     <br>
                     <br>
-
+            <!--Table-->
                     <table>
                         <tr>
                             <th>Kategori</th>
@@ -130,11 +155,20 @@
                         </tr>
                     </table>
                     <br>
+                    <!--Donwload-->
                     <img src="google plays.png" alt="GooglePlay">
                     <img src="apps store.png" alt="AppsStore">
+                    <br>
             </section>
-
     </main>
-<footer></footer>   
 </body>
+<br>
+<br>
+<footer>
+ <!--Copyright-->
+    <span class="maker">
+        <p>made by elbriii</p>
+    </span>
+</footer>   
+
 </html>

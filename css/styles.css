@@ -6,6 +6,7 @@
   padding-right: 140px;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -29,16 +30,17 @@ header {
 
 .Introduction {
   background-color: #cadc88;
-  padding: 25px;
+  padding: 20px;
   width:35%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 main {
     display: flex
 ;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 10px;
-
+    gap: 70px;
 }
 
 .gender {    
@@ -51,6 +53,7 @@ table {
   border-collapse: collapse;
   width: 150%;
   height: 40%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 td, th {
@@ -120,4 +123,53 @@ input[type=number] {
   padding: 30px;
   width: 120%;
   height: 35%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+  display: flex
+;
+
+    justify-content: center;
+   
+
+}
+.maker {
+  display: flex
+  ;
+      justify-content: center;
+      background-color: darkseagreen;
+      font-size: large;
+      font-family: serif;
+      padding-left: 500px;
+      padding-right: 500px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.aside {
+ background-color: #aad363;
+  text-orientation: upright;
+  padding: 10px;
+  border: 1px solid #a59f9f; 
+  font-size: 16px; 
+  line-height: 1.6;
+  font-family: cursive;
+  max-width: 300px;
+  max-height: 400px;
+  margin-top: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.category {
+  display: flex
+;
+    justify-content: center;
+    font-size: larger;
+}
+.message {
+  display: flex
+;
+    justify-content: center;
+    font-size: larger;
 }
